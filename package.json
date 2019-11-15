@@ -4,7 +4,7 @@
   "description": "More to come!",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./coffeetime/frontend/src/index.js --output ./coffeetime/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./coffeetime/frontend/src/index.js --output ./coffeetime/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./coffeetime/frontend/src/index.js --output ./coffeetime/frontend/static/frontend/main.js"
   },
   "repository": {
